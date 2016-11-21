@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_check_all"
+        android:orderInCategory="100"
+        android:title="@string/checkall"
+        android:icon="@android:drawable/checkbox_on_background"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_uncheck_all"
+        android:orderInCategory="100"
+        android:title="@string/uncheckall"
+        android:icon="@android:drawable/checkbox_off_background"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_clear_from_toolbar"
+        android:orderInCategory="100"
+        android:title="@string/delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add_from_toolbar"
+        android:orderInCategory="100"
+        android:title="@string/add"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always" />
+</menu>

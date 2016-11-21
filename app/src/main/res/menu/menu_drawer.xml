@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/additem"
+        android:orderInCategory="100"
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item
+        android:title="@string/clearall"
+        android:orderInCategory="100"
+        android:id="@+id/action_clear"
+        android:icon="@android:drawable/ic_menu_delete"/>
+    <item
+        android:id="@+id/action_check_all"
+        android:orderInCategory="100"
+        android:title="@string/checkall"
+        android:icon="@android:drawable/checkbox_on_background" />
+    <item
+        android:id="@+id/action_uncheck_all"
+        android:orderInCategory="100"
+        android:title="@string/uncheckall"
+        android:icon="@android:drawable/checkbox_off_background" />
+    <item
+        android:title="@string/about"
+        android:orderInCategory="101"
+        android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    <item
+        android:title="@string/help"
+        android:orderInCategory="102"
+        android:id="@+id/action_help"
+        android:icon="@android:drawable/ic_menu_help"/>
+</menu>
